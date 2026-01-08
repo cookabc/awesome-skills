@@ -27,6 +27,22 @@
 
 ---
 
+### planning-with-files
+
+**基于文件的规划 - 持久化 Markdown 工作流**
+
+使用 Manus 风格的持久化 Markdown 文件进行规划、进度追踪和知识管理的技能。
+
+**功能：**
+- 三文件模式：`task_plan.md`、`notes.md`、`[deliverable].md`
+- 磁盘上的持久化工作记忆
+- 基于阶段的进度追踪
+- 错误记录和知识沉淀
+
+**适用场景：** 复杂任务、多步骤项目、研究任务，或需要结构化输出和进度跟踪时。
+
+---
+
 ### infographic-creation
 
 **信息图表创建工具**
@@ -53,6 +69,8 @@
 │   └── SKILL.md
 ├── infographic-creation/
 │   └── SKILL.md
+├── planning-with-files/
+│   └── SKILL.md
 └── README.md
 ```
 
@@ -63,6 +81,7 @@
 ```
 /chunxiang-rocket
 /infographic-creation
+/planning-with-files
 ```
 
 或通过自然语言描述需求，Claude 会自动调用相应技能。

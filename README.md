@@ -27,6 +27,22 @@ A complete AI programming prompt system that helps you master AI full-stack deve
 
 ---
 
+### planning-with-files
+
+**Planning with Files - Persistent Markdown Workflow**
+
+A skill that transforms your workflow to use Manus-style persistent markdown files for planning, progress tracking, and knowledge storage.
+
+**Features:**
+- 3-file pattern: `task_plan.md`, `notes.md`, `[deliverable].md`
+- Persistent working memory on disk
+- Phase-based progress tracking
+- Error logging and knowledge retention
+
+**Use when:** starting complex tasks, multi-step projects, research tasks, or when you need structured output and progress tracking.
+
+---
+
 ### infographic-creation
 
 **Infographic Creation Tool**
@@ -53,6 +69,8 @@ A skill for generating visual infographics based on [AntV Infographic](https://i
 │   └── SKILL.md
 ├── infographic-creation/
 │   └── SKILL.md
+├── planning-with-files/
+│   └── SKILL.md
 └── README.md
 ```
 
@@ -63,6 +81,7 @@ Invoke skills directly in Claude Code:
 ```
 /chunxiang-rocket
 /infographic-creation
+/planning-with-files
 ```
 
 Or simply describe your needs in natural language, and Claude will automatically invoke the appropriate skill.
