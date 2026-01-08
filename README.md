@@ -1,51 +1,49 @@
 # Claude Code Skills
 
-> 精选 Claude Code 技能集合 | A curated collection of custom skills for Claude Code
-
-这个仓库包含用于增强 Claude Code 功能的自定义技能。
+> A curated collection of custom skills for [Claude Code](https://claude.ai/code)
 
 This repository contains custom skills for enhancing Claude Code functionality.
 
-## 技能列表 | Skills
+## Skills
 
 ### chunxiang-rocket
 
-**纯想独立开发火箭课程 - AI编程实战指南**
+**AI Programming Bootcamp - A Comprehensive Guide**
 
-作者：赵纯想 - 独立开发者、AI创业者、胃之书作者
+Author: Zhao Chunxiang - Independent Developer, AI Entrepreneur, Author of "Stomach Book"
 
-这是一个完整的 AI 编程提示词系统，帮助你从 0 到 1 掌握 AI 全栈开发技能。
+A complete AI programming prompt system that helps you master AI full-stack development from zero to one.
 
-**涵盖内容 | Topics Covered:**
-- GEB 分形文档系统协议
-- Vite + React + TailwindCSS v4 环境初始化
-- shadcn/ui 设计系统配置
-- 微拟物光影质感设计
-- Landing Page 架构规范
-- Framer Motion 动画提升
-- Supabase 接入全流程
+**Topics Covered:**
+- GEB Fractal Documentation System Protocol
+- Vite + React + TailwindCSS v4 Environment Setup
+- shadcn/ui Design System Configuration
+- Neumorphic Design with Light & Shadow
+- Landing Page Architecture Standards
+- Framer Motion Animation Enhancement
+- Supabase Integration Workflow
 
 ---
 
 ### infographic-creation
 
-**信息图表创建工具 | Infographic Creation Tool**
+**Infographic Creation Tool**
 
-基于 [AntV Infographic](https://infographic.antv.vision/) 的可视化信息图表生成技能。
+A skill for generating visual infographics based on [AntV Infographic](https://infographic.antv.vision/).
 
-**功能 | Features:**
-- 支持多种模板类型（时间线、流程图、对比图、层级图等）
-- 集成 Iconify 图标库和 unDraw 插画资源
-- 自定义主题配色
-- 导出 SVG 格式
+**Features:**
+- Multiple template types (timeline, flowchart, comparison, hierarchy, etc.)
+- Integrated Iconify icon library and unDraw illustration resources
+- Customizable theme colors
+- SVG export support
 
 ---
 
-## 安装 | Installation
+## Installation
 
-1. 将技能目录放置在 `~/.claude/skills/` 下
-2. 重启 Claude Code
-3. 技能将自动加载
+1. Place skill directories under `~/.claude/skills/`
+2. Restart Claude Code
+3. Skills will be loaded automatically
 
 ```
 ~/.claude/skills/
@@ -56,21 +54,21 @@ This repository contains custom skills for enhancing Claude Code functionality.
 └── README.md
 ```
 
-## 使用 | Usage
+## Usage
 
-在 Claude Code 中直接调用技能：
+Invoke skills directly in Claude Code:
 
 ```
 /chunxiang-rocket
 /infographic-creation
 ```
 
-或通过自然语言描述需求，Claude 会自动调用相应技能。
+Or simply describe your needs in natural language, and Claude will automatically invoke the appropriate skill.
 
-## 贡献 | Contributing
+## Contributing
 
-欢迎提交 Issue 和 Pull Request 来完善这些技能。
+Issues and Pull Requests are welcome.
 
-## 许可证 | License
+## License
 
 MIT
