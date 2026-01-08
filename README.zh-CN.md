@@ -2,6 +2,8 @@
 
 > 精选 Claude Code 技能集合
 
+[**English**](README.md) | 中文文档
+
 这个仓库包含用于增强 Claude Code 功能的自定义技能。
 
 ## 技能列表

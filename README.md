@@ -2,6 +2,8 @@
 
 > A curated collection of custom skills for [Claude Code](https://claude.ai/code)
 
+[**中文文档**](README.zh-CN.md) | English
+
 This repository contains custom skills for enhancing Claude Code functionality.
 
 ## Skills
